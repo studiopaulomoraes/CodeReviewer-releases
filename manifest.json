@@ -1,0 +1,10 @@
+{
+  "version": "1.2.5",
+  "publishedAt": "2026-03-01T03:24:34Z",
+  "notes": "Release 1.2.5",
+  "assets": {
+    "mac": { "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.2.5/CodeReviewer-1.2.5-mac.zip", "sha256": "b5ad1394238539b0713b38be3aebe11c20a0a0c995a244195d0b46a871797ab1" },
+    "win": { "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.2.5/CodeReviewer-1.2.5-win.zip", "sha256": "a0cb4e951fecd217dde014e64b00d3c33b2833fb57c68b9d3dc0b157a603f081" },
+    "linux": { "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.2.5/code-reviewer_1.2.5_amd64.deb", "sha256": "38bdf20b937fe9664bfbf70ab0775dbea4ab8d10217c7eee7a969bff5859383d" }
+  }
+}
