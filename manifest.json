@@ -1,19 +1,19 @@
 {
-  "version": "1.4.1",
-  "publishedAt": "2026-03-01T23:59:59Z",
-  "notes": "Release 1.4.1",
+  "version": "1.5.0",
+  "publishedAt": "2026-03-02T00:41:12Z",
+  "notes": "Release 1.5.0",
   "assets": {
     "mac": {
-      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.4.1/CodeReviewer-1.4.1-mac.zip",
-      "sha256": "308e4719a92b02416ea6ff4c9995ade471f37b02b68ca2a0ff7d8e533e12c1c6"
+      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.5.0/CodeReviewer-1.5.0-mac.zip",
+      "sha256": "f3200f5fdb1850959127e7cede85e7880a4c6b1cf7f8d87e5dbda60be118bd92"
     },
     "linux": {
-      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.4.1/code-reviewer_1.4.1_amd64.deb",
-      "sha256": "2f58a006a7432c6e72fbb1336d4837c90cecc1174e371b8fe5b09e4782adf7ff"
+      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.5.0/code-reviewer_1.5.0_amd64.deb",
+      "sha256": "cb1f293087b9b19b41a01b879cff9f9e21c6b762c1d829ff2908f5cae9ed2119"
     },
     "win": {
-      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.4.1/CodeReviewer-1.4.1-win.zip",
-      "sha256": "8b98c4a7b5f7874acf26983eaae5f1a0031c53e95a8bcab316d876d2b0b9eb80"
+      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.5.0/CodeReviewer-1.5.0-win.zip",
+      "sha256": "02cabf2ec1b1c364b31b02158189e5da4dcbbde7e0e5245d04ef516b5be9cb41"
     }
   }
 }
