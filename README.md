@@ -1,44 +1,136 @@
-# CodeReviewer
+# Code Reviewer — Funcionalidades do App Desktop
 
-Um assistente inteligente que revisa seu código automaticamente, como se você tivesse um desenvolvedor sênior olhando cada linha antes de ir para produção.
+> **"Diga adeus ao Code Review custoso"**
 
-## O que é?
-
-O CodeReviewer é um agente de revisão de código que analisa o que você escreveu e te diz o que precisa melhorar — antes que vire problema. Ele funciona como um colega de equipe exigente que nunca deixa passar nada.
-
-## Para que serve?
-
-Imagine que você terminou de programar uma funcionalidade. Antes de enviar para o time, o CodeReviewer passa um pente fino no seu código e verifica:
-
-- 🔍 **Se o código está organizado** — cada coisa no seu devido lugar, sem misturas que dificultam manutenção
-- 🐛 **Se tem algo que pode dar problema** — dependências mal configuradas, referências que não deveriam existir, rotas escritas diretamente no código
-- 📝 **Se ficou algum "lembrete" esquecido** — aqueles TODOs que a gente deixa e nunca volta pra resolver
-- 🏷️ **Se os nomes fazem sentido** — variáveis, funções e classes com nomes claros e padronizados
-- 🧪 **Se os testes cobrem o suficiente** — garantindo que pelo menos 90% do código está protegido por testes automatizados
-- ✅ **Se tudo compila e funciona** — nada vai pro ar sem estar rodando corretamente
-
-## Como funciona?
-
-O CodeReviewer trabalha em etapas, como uma linha de montagem:
-
-1. **Entende o que precisa ser feito** — analisa a tarefa e cria um plano detalhado
-2. **Implementa** — escreve o código seguindo o plano
-3. **Revisa** — passa por uma checagem rigorosa de qualidade e padrões
-4. **Valida** — confirma que tudo foi implementado, compila e os testes passam
-
-Se algo não está bom em qualquer etapa, ele volta e corrige antes de seguir em frente. Nada é aprovado pela metade.
-
-## Por que usar?
-
-- ⏱️ **Economiza tempo** — revisões manuais demoram, o CodeReviewer faz em segundos
-- 🛡️ **Menos bugs** — problemas são pegos antes de chegar ao usuário
-- 📏 **Padrão consistente** — todo o código segue as mesmas regras, independente de quem escreveu
-- 🚀 **Mais confiança para entregar** — se o CodeReviewer aprovou, está pronto
-
-## Plataformas
-
-Funciona em **Android**, **iOS**, **Web** e **Desktop** — um único projeto para todas as plataformas.
+O **Code Reviewer** é um assistente de revisão de código alimentado por IA, disponível para **macOS**, **Windows** e **Linux**. Automatize análises, publique comentários diretamente nos Pull Requests e reduza o tempo de review em até 80%.
 
 ---
 
-Desenvolvido por **Paulo Moraes - Probox Studio**
+## 🤖 Análise Inteligente com IA
+
+- **Múltiplos provedores de IA**: Google Gemini e OpenAI (ChatGPT)
+- **Modelos dinâmicos**: escolha entre diversos modelos (ex.: `gemini-1.5-flash`, `gpt-4o-mini`, `gpt-4o`) conforme sua necessidade
+- **Níveis de criticidade ajustáveis**:
+    - **HIGH** — rigoroso (ideal para times júnior)
+    - **MEDIUM** — moderado (pleno)
+    - **LOW** — básico (sênior)
+    - **NONE** — padrão
+- **Detecção automática** de bugs, vulnerabilidades e sugestões de melhoria
+- **Resumo do diff** gerado pela IA para visão geral rápida
+- **Contexto enriquecido**: anexe arquivos (drag & drop ou file picker) para enriquecer o prompt da análise
+- **Histórico de conversas** (ChatSession) mantido para contexto contínuo entre análises
+
+---
+
+## 🔗 Integração com VCS
+
+| Provedor | Suporte | URLs suportadas |
+|----------|---------|-----------------|
+| **Azure DevOps** | ✅ | `dev.azure.com/{org}/{proj}/_git/{repo}/pullrequest/{id}` |
+| **GitHub** | ✅ | `github.com/{owner}/{repo}/pull/{id}` |
+| **GitLab** | ✅ | `gitlab.*/.../merge_requests/{id}` |
+
+- **Cole a URL do PR** e o app carrega automaticamente o diff e metadados
+- **Múltiplos PATs** por provedor — escolha qual conta usar em cada aba
+- **Verificação de permissões** (GitHub repo, GitLab role) antes de postar
+- **Imagens autenticadas** no Azure DevOps via interceptor dedicado
+
+---
+
+## 💬 Comentários e Colaboração
+
+- **Publicação direta** de comentários no Pull Request (Azure DevOps, GitHub, GitLab)
+- **Severidades**: CRITICAL, HIGH, MEDIUM, LOW, UNKNOWN
+- **Draft comments**: crie e edite comentários localmente antes de publicar
+- **Threads remotos** com cards específicos por provedor
+- **Resolução de discussões** no GitLab (resolve/reopen)
+- **Status de threads** no Azure DevOps
+- **Voto de revisão** no Azure DevOps: Approve, Reject, Wait
+
+---
+
+## 📂 Visualização de Diff
+
+- **Diff lado a lado** (side-by-side) para comparação clara
+- **Lista de arquivos** com navegação rápida
+- **Busca no diff** (Cmd/Ctrl + F)
+- **Filtro de produção**: ignore arquivos de teste na análise
+- **Renderização de Markdown** em comentários e blocos de código
+- **Tipografia configurável** para diff, comentários e UI
+
+---
+
+## 🛠️ Stack de Tecnologia Customizável
+
+- **TechStack**: Android, iOS, Flutter, KMP, React Native, Outro
+- **TechCategory**: Mobile, Web, Backend, Desktop, DevOps/Cloud, Outro
+- **Technologies customizadas**: adicione tecnologias por categoria para análises mais precisas
+- **Tecnologias built-in** para cenários comuns
+
+---
+
+## 📑 Produtividade
+
+- **Até 5 abas simultâneas** — revise múltiplos PRs ao mesmo tempo
+- **Atalhos de teclado** em toda a aplicação:
+    - `Cmd/Ctrl + ,` — Configurações
+    - `Cmd/Ctrl + T` — Nova aba
+    - `Cmd/Ctrl + W` — Fechar aba
+    - `Ctrl + Tab` / `Ctrl + Shift + Tab` — Navegar entre abas
+    - `Cmd/Ctrl + =` / `Cmd/Ctrl + -` / `Cmd/Ctrl + 0` — Ajustar fonte
+    - `Cmd/Ctrl + S` — Salvar alterações
+    - `Cmd/Ctrl + F` — Busca
+    - `Cmd/Ctrl + Shift + /` — Diálogo de atalhos
+- **Som opcional** ao concluir a análise
+- **Atualização automática** via manifest ou GitHub Releases
+
+---
+
+## 🎨 Interface e Acessibilidade
+
+- **Tema claro e escuro** (Light/Dark)
+- **Tamanhos de fonte configuráveis** para diff, comentários e UI
+- **Material Design 3** — interface moderna e consistente
+- **Tooltips** contextuais
+- **Drag & drop** de arquivos para contexto adicional
+- **Layout responsivo** com escala de tipografia adaptável
+
+---
+
+## ⚙️ Configurações
+
+- **Chaves de API**: Gemini e OpenAI (múltiplas chaves suportadas)
+- **PATs**: Azure DevOps, GitHub, GitLab
+- **Tecnologias**: lista customizada por categoria
+- **Tema**: Light / Dark
+- **Fontes**: Diff, Comentários, UI
+- **Som ao concluir**: ativar/desativar
+
+---
+
+## 📦 Plataformas e Distribuição
+
+| Plataforma | Formato | Arquiteturas |
+|------------|---------|--------------|
+| **macOS** | DMG | Intel (x64), Apple Silicon (arm64) |
+| **Windows** | MSI | x64 |
+| **Linux** | DEB | amd64, arm64 |
+
+- **Atualização automática** integrada (macOS, Windows, Linux)
+- **Monitoramento de erros** com Sentry
+
+---
+
+## 🚀 Por que usar o Code Reviewer?
+
+1. **Economize tempo** — reduza o tempo de review em até 80%
+2. **Multi-VCS** — um único app para Azure DevOps, GitHub e GitLab
+3. **Multi-IA** — escolha entre Gemini e OpenAI conforme preferir
+4. **Contexto personalizado** — anexe arquivos e defina tecnologias para análises mais precisas
+5. **Publicação direta** — publique comentários no PR sem sair do app
+6. **Multi-plataforma** — macOS, Windows e Linux com a mesma experiência
+7. **Atualização automática** — mantenha-se sempre na versão mais recente
+
+---
+
+*Desenvolvido por [Probox Studio](https://proboxstudio.com.br)*
