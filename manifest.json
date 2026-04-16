@@ -1,11 +1,11 @@
 {
-  "version": "1.7.5",
-  "publishedAt": "2026-04-16T15:19:35Z",
-  "notes": "Release 1.7.5",
+  "version": "1.7.6",
+  "publishedAt": "2026-04-16T15:50:36Z",
+  "notes": "Release 1.7.6",
   "assets": {
     "mac": {
-      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.7.5/CodeReviewer-1.7.5-mac.zip",
-      "sha256": "b4eb22806a10554ea94f35c080cf107dac60e639553038fe51770534a020ad42"
+      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.7.6/CodeReviewer-1.7.6-mac.zip",
+      "sha256": "4365b9a384cde4997476f3ff2694d8d41983d1f22a73e9448f5538dc110452d8"
     },
     "linux": {
       "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.3.0/code-reviewer_1.3.0_amd64.deb",
