@@ -1,136 +1,136 @@
-# Code Reviewer — Funcionalidades do App Desktop
+# Code Reviewer — Desktop App Features
 
-> **"Diga adeus ao Code Review custoso"**
+> **"Say goodbye to costly Code Review"**
 
-O **Code Reviewer** é um assistente de revisão de código alimentado por IA, disponível para **macOS**, **Windows** e **Linux**. Automatize análises, publique comentários diretamente nos Pull Requests e reduza o tempo de review em até 80%.
-
----
-
-## 🤖 Análise Inteligente com IA
-
-- **Múltiplos provedores de IA**: Google Gemini e OpenAI (ChatGPT)
-- **Modelos dinâmicos**: escolha entre diversos modelos (ex.: `gemini-1.5-flash`, `gpt-4o-mini`, `gpt-4o`) conforme sua necessidade
-- **Níveis de criticidade ajustáveis**:
-    - **HIGH** — rigoroso (ideal para times júnior)
-    - **MEDIUM** — moderado (pleno)
-    - **LOW** — básico (sênior)
-    - **NONE** — padrão
-- **Detecção automática** de bugs, vulnerabilidades e sugestões de melhoria
-- **Resumo do diff** gerado pela IA para visão geral rápida
-- **Contexto enriquecido**: anexe arquivos (drag & drop ou file picker) para enriquecer o prompt da análise
-- **Histórico de conversas** (ChatSession) mantido para contexto contínuo entre análises
+**Code Reviewer** is an AI-powered code review assistant available for **macOS**, **Windows**, and **Linux**. Automate analyses, publish comments directly on Pull Requests, and reduce review time by up to 80%.
 
 ---
 
-## 🔗 Integração com VCS
+## 🤖 Intelligent AI Analysis
 
-| Provedor | Suporte | URLs suportadas |
-|----------|---------|-----------------|
+- **Multiple AI providers**: Google Gemini and OpenAI (ChatGPT)
+- **Dynamic models**: choose from various models (e.g., `gemini-1.5-flash`, `gpt-4o-mini`, `gpt-4o`) based on your needs
+- **Adjustable criticality levels**:
+    - **HIGH** — strict (ideal for junior teams)
+    - **MEDIUM** — moderate (mid-level)
+    - **LOW** — basic (senior)
+    - **NONE** — default
+- **Automatic detection** of bugs, vulnerabilities, and improvement suggestions
+- **AI-generated diff summary** for a quick overview
+- **Enriched context**: attach files (drag & drop or file picker) to enrich the analysis prompt
+- **Conversation history** (ChatSession) maintained for continuous context across analyses
+
+---
+
+## 🔗 VCS Integration
+
+| Provider | Support | Supported URLs |
+|----------|---------|----------------|
 | **Azure DevOps** | ✅ | `dev.azure.com/{org}/{proj}/_git/{repo}/pullrequest/{id}` |
 | **GitHub** | ✅ | `github.com/{owner}/{repo}/pull/{id}` |
 | **GitLab** | ✅ | `gitlab.*/.../merge_requests/{id}` |
 
-- **Cole a URL do PR** e o app carrega automaticamente o diff e metadados
-- **Múltiplos PATs** por provedor — escolha qual conta usar em cada aba
-- **Verificação de permissões** (GitHub repo, GitLab role) antes de postar
-- **Imagens autenticadas** no Azure DevOps via interceptor dedicado
+- **Paste the PR URL** and the app automatically loads the diff and metadata
+- **Multiple PATs** per provider — choose which account to use in each tab
+- **Permission checks** (GitHub repo, GitLab role) before posting
+- **Authenticated images** on Azure DevOps via dedicated interceptor
 
 ---
 
-## 💬 Comentários e Colaboração
+## 💬 Comments and Collaboration
 
-- **Publicação direta** de comentários no Pull Request (Azure DevOps, GitHub, GitLab)
-- **Severidades**: CRITICAL, HIGH, MEDIUM, LOW, UNKNOWN
-- **Draft comments**: crie e edite comentários localmente antes de publicar
-- **Threads remotos** com cards específicos por provedor
-- **Resolução de discussões** no GitLab (resolve/reopen)
-- **Status de threads** no Azure DevOps
-- **Voto de revisão** no Azure DevOps: Approve, Reject, Wait
-
----
-
-## 📂 Visualização de Diff
-
-- **Diff lado a lado** (side-by-side) para comparação clara
-- **Lista de arquivos** com navegação rápida
-- **Busca no diff** (Cmd/Ctrl + F)
-- **Filtro de produção**: ignore arquivos de teste na análise
-- **Renderização de Markdown** em comentários e blocos de código
-- **Tipografia configurável** para diff, comentários e UI
+- **Direct publishing** of comments on Pull Requests (Azure DevOps, GitHub, GitLab)
+- **Severities**: CRITICAL, HIGH, MEDIUM, LOW, UNKNOWN
+- **Draft comments**: create and edit comments locally before publishing
+- **Remote threads** with provider-specific cards
+- **Discussion resolution** on GitLab (resolve/reopen)
+- **Thread status** on Azure DevOps
+- **Review vote** on Azure DevOps: Approve, Reject, Wait
 
 ---
 
-## 🛠️ Stack de Tecnologia Customizável
+## 📂 Diff Viewer
 
-- **TechStack**: Android, iOS, Flutter, KMP, React Native, Outro
-- **TechCategory**: Mobile, Web, Backend, Desktop, DevOps/Cloud, Outro
-- **Technologies customizadas**: adicione tecnologias por categoria para análises mais precisas
-- **Tecnologias built-in** para cenários comuns
-
----
-
-## 📑 Produtividade
-
-- **Até 5 abas simultâneas** — revise múltiplos PRs ao mesmo tempo
-- **Atalhos de teclado** em toda a aplicação:
-    - `Cmd/Ctrl + ,` — Configurações
-    - `Cmd/Ctrl + T` — Nova aba
-    - `Cmd/Ctrl + W` — Fechar aba
-    - `Ctrl + Tab` / `Ctrl + Shift + Tab` — Navegar entre abas
-    - `Cmd/Ctrl + =` / `Cmd/Ctrl + -` / `Cmd/Ctrl + 0` — Ajustar fonte
-    - `Cmd/Ctrl + S` — Salvar alterações
-    - `Cmd/Ctrl + F` — Busca
-    - `Cmd/Ctrl + Shift + /` — Diálogo de atalhos
-- **Som opcional** ao concluir a análise
-- **Atualização automática** via manifest ou GitHub Releases
+- **Side-by-side diff** for clear comparison
+- **File list** with quick navigation
+- **Diff search** (Cmd/Ctrl + F)
+- **Production filter**: ignore test files in the analysis
+- **Markdown rendering** in comments and code blocks
+- **Configurable typography** for diff, comments, and UI
 
 ---
 
-## 🎨 Interface e Acessibilidade
+## 🛠️ Customizable Technology Stack
 
-- **Tema claro e escuro** (Light/Dark)
-- **Tamanhos de fonte configuráveis** para diff, comentários e UI
-- **Material Design 3** — interface moderna e consistente
-- **Tooltips** contextuais
-- **Drag & drop** de arquivos para contexto adicional
-- **Layout responsivo** com escala de tipografia adaptável
+- **TechStack**: Android, iOS, Flutter, KMP, React Native, Other
+- **TechCategory**: Mobile, Web, Backend, Desktop, DevOps/Cloud, Other
+- **Custom technologies**: add technologies by category for more accurate analyses
+- **Built-in technologies** for common scenarios
 
 ---
 
-## ⚙️ Configurações
+## 📑 Productivity
 
-- **Chaves de API**: Gemini e OpenAI (múltiplas chaves suportadas)
+- **Up to 5 simultaneous tabs** — review multiple PRs at the same time
+- **Keyboard shortcuts** throughout the application:
+    - `Cmd/Ctrl + ,` — Settings
+    - `Cmd/Ctrl + T` — New tab
+    - `Cmd/Ctrl + W` — Close tab
+    - `Ctrl + Tab` / `Ctrl + Shift + Tab` — Navigate between tabs
+    - `Cmd/Ctrl + =` / `Cmd/Ctrl + -` / `Cmd/Ctrl + 0` — Adjust font size
+    - `Cmd/Ctrl + S` — Save changes
+    - `Cmd/Ctrl + F` — Search
+    - `Cmd/Ctrl + Shift + /` — Shortcuts dialog
+- **Optional sound** when analysis completes
+- **Automatic updates** via manifest or GitHub Releases
+
+---
+
+## 🎨 Interface and Accessibility
+
+- **Light and dark theme** (Light/Dark)
+- **Configurable font sizes** for diff, comments, and UI
+- **Material Design 3** — modern and consistent interface
+- **Contextual tooltips**
+- **Drag & drop** files for additional context
+- **Responsive layout** with adaptable typography scale
+
+---
+
+## ⚙️ Settings
+
+- **API keys**: Gemini and OpenAI (multiple keys supported)
 - **PATs**: Azure DevOps, GitHub, GitLab
-- **Tecnologias**: lista customizada por categoria
-- **Tema**: Light / Dark
-- **Fontes**: Diff, Comentários, UI
-- **Som ao concluir**: ativar/desativar
+- **Technologies**: custom list by category
+- **Theme**: Light / Dark
+- **Fonts**: Diff, Comments, UI
+- **Completion sound**: enable/disable
 
 ---
 
-## 📦 Plataformas e Distribuição
+## 📦 Platforms and Distribution
 
-| Plataforma | Formato | Arquiteturas |
-|------------|---------|--------------|
+| Platform | Format | Architectures |
+|----------|--------|---------------|
 | **macOS** | DMG | Intel (x64), Apple Silicon (arm64) |
 | **Windows** | MSI | x64 |
 | **Linux** | DEB | amd64, arm64 |
 
-- **Atualização automática** integrada (macOS, Windows, Linux)
-- **Monitoramento de erros** com Sentry
+- **Built-in automatic updates** (macOS, Windows, Linux)
+- **Error monitoring** with Sentry
 
 ---
 
-## 🚀 Por que usar o Code Reviewer?
+## 🚀 Why use Code Reviewer?
 
-1. **Economize tempo** — reduza o tempo de review em até 80%
-2. **Multi-VCS** — um único app para Azure DevOps, GitHub e GitLab
-3. **Multi-IA** — escolha entre Gemini e OpenAI conforme preferir
-4. **Contexto personalizado** — anexe arquivos e defina tecnologias para análises mais precisas
-5. **Publicação direta** — publique comentários no PR sem sair do app
-6. **Multi-plataforma** — macOS, Windows e Linux com a mesma experiência
-7. **Atualização automática** — mantenha-se sempre na versão mais recente
+1. **Save time** — reduce review time by up to 80%
+2. **Multi-VCS** — one app for Azure DevOps, GitHub, and GitLab
+3. **Multi-AI** — choose between Gemini and OpenAI as you prefer
+4. **Custom context** — attach files and define technologies for more accurate analyses
+5. **Direct publishing** — publish comments on the PR without leaving the app
+6. **Cross-platform** — macOS, Windows, and Linux with the same experience
+7. **Automatic updates** — always stay on the latest version
 
 ---
 
-*Desenvolvido por [Probox Studio](https://proboxstudio.com.br)*
+*Developed by [Probox Studio](https://proboxstudio.com.br)*
