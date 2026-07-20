@@ -8,14 +8,14 @@
 
 ## Download
 
-**Latest version: [1.11.0](https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/tag/1.11.0)** · [All releases](https://github.com/studiopaulomoraes/CodeReviewer-releases/releases)
+**Latest version: [1.12.0](https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/tag/1.12.0)** · [All releases](https://github.com/studiopaulomoraes/CodeReviewer-releases/releases)
 
 | Platform | Architecture | Format | Download |
 |----------|--------------|--------|----------|
-| **Windows** | x64 | ZIP | [**Download**](https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.11.0/CodeReviewer-1.11.0-win.zip) |
-| **macOS** | Apple Silicon (M1/M2/M3/M4) | ZIP | [**Download**](https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.11.0/CodeReviewer-1.11.0-mac.zip) |
-| **macOS** | Intel (x64) | ZIP | [**Download**](https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.11.0/CodeReviewer-1.11.0-mac.zip) |
-| **Linux** | amd64 | DEB | [**Download**](https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.11.0/code-reviewer_1.11.0_amd64.deb) |
+| **Windows** | x64 | ZIP | [**Download**](https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.12.0/CodeReviewer-1.12.0-win.zip) |
+| **macOS** | Apple Silicon (M1/M2/M3/M4) | ZIP | [**Download**](https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.12.0/CodeReviewer-1.12.0-mac.zip) |
+| **macOS** | Intel (x64) | ZIP | [**Download**](https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.12.0/CodeReviewer-1.12.0-mac.zip) |
+| **Linux** | amd64 | DEB | [**Download**](https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.12.0/code-reviewer_1.12.0_amd64.deb) |
 
 <details>
 <summary><strong>First launch notes</strong></summary>
