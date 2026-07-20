@@ -1,6 +1,6 @@
 {
   "version": "1.11.0",
-  "publishedAt": "2026-07-14T15:29:55Z",
+  "publishedAt": "2026-07-14T15:29:24Z",
   "notes": "Release 1.11.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: add AI review language selection and update related preferences",
   "assets": {
     "mac": {
