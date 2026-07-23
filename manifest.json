@@ -1,19 +1,19 @@
 {
-  "version": "1.12.0",
-  "publishedAt": "2026-07-20T15:01:03Z",
-  "notes": "Release 1.12.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement desktop menu integration and enhance keyboard shortcuts handling",
+  "version": "1.13.0",
+  "publishedAt": "2026-07-23T22:39:39Z",
+  "notes": "Release 1.13.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement security PIN functionality with setup, validation, and session management\n- feat: enhance AI review language selection with new card UI and integrate language options in settings",
   "assets": {
     "mac": {
-      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.12.0/CodeReviewer-1.12.0-mac.zip",
-      "sha256": "c83eb961304d9cd9464b6fa027a1430a800cca8b260a600af7a8d6cdef8b00ca"
+      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.13.0/CodeReviewer-1.13.0-mac.zip",
+      "sha256": "f2182ec837def3ea469a050ac419beefa46851dea1c6b8ffd020c822208bf1e8"
     },
     "linux": {
-      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.12.0/code-reviewer_1.12.0_amd64.deb",
-      "sha256": "8461083568e31328f5f1d6dbfc62370e4450d598e6dab45df4c717b81326e851"
+      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.13.0/code-reviewer_1.13.0_amd64.deb",
+      "sha256": "fff99eef9c2d399ea69c975c9816cf29b4e9c0c20415925d49fe6be1ab1e3007"
     },
     "win": {
-      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.12.0/CodeReviewer-1.12.0-win.zip",
-      "sha256": "045fdc709a8f323c6504e1315d837c011cfc2af4a506397850e2e1f6bb4968f3"
+      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.13.0/CodeReviewer-1.13.0-win.zip",
+      "sha256": "7ffab442fd86c10a04b4b1b99a16ec42e9bdec7ed492413ac13f8b7ea3aeb943"
     }
   },
   "notesByVersion": {
@@ -21,6 +21,7 @@
     "1.9.1": "Release 1.9.1\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: add skip release notes confirmation option and update build scripts for improved release process\n- feat: add loading state to workspace panels and update UI components to reflect loading status\n- feat: update app version to 1.9.1, enhance release notes generation, and add onToggleCommentSelection callback to various components\n- feat: add DiffViewMode parameter to various components for flexible diff viewing\n- feat: add DiffViewMode enum and implement diff view mode toggle in UI",
     "1.10.0": "Release 1.10.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement Bitbucket support with user authentication, comment handling, and UI updates",
     "1.11.0": "Release 1.11.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: add AI review language selection and update related preferences",
-    "1.12.0": "Release 1.12.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement desktop menu integration and enhance keyboard shortcuts handling"
+    "1.12.0": "Release 1.12.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement desktop menu integration and enhance keyboard shortcuts handling",
+    "1.13.0": "Release 1.13.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement security PIN functionality with setup, validation, and session management\n- feat: enhance AI review language selection with new card UI and integrate language options in settings"
   }
 }
