@@ -1,19 +1,19 @@
 {
-  "version": "1.14.0",
-  "publishedAt": "2026-07-24T21:58:23Z",
-  "notes": "Release 1.14.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement download cancellation functionality and update UI state management\n- feat: downgrade app version to 1.9.0 and update theme handling in update windows\n- feat: add debug functionality to clear pending downloads and enhance UI for update management\n- feat: enhance update management with release notes version count and UI adjustments\n- feat: add update check outcome resolution and refactor update handling\n- feat: implement update management with pending downloads and UI integration",
+  "version": "1.14.1",
+  "publishedAt": "2026-07-25T17:58:22Z",
+  "notes": "Release 1.14.1\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- fix: require GH_TOKEN for pushing legacy manifest updates and update clone command\n- chore: bump version to 1.14.1 and update patch number\n- fix: restore legacy manifest URL compatibility for auto-update migration\n- fix: correct releases repo name to Probox-CodeReviewer-releases\n- refactor: update repository references from CodeReviewer-releases to Probox-CodeReview-releases across documentation, scripts, and workflows\n- feat: implement download cancellation functionality and update UI state management\n- feat: downgrade app version to 1.9.0 and update theme handling in update windows\n- feat: add debug functionality to clear pending downloads and enhance UI for update management\n- feat: enhance update management with release notes version count and UI adjustments\n- feat: add update check outcome resolution and refactor update handling",
   "assets": {
     "mac": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.0/CodeReviewer-1.14.0-mac.zip",
-      "sha256": "088306b93d7d1652605acc619a925f8cc0d66947a67239af36cd4f04150e9197"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.1/CodeReviewer-1.14.1-mac.zip",
+      "sha256": "8dfc1be7069635dc582ebdf9f5afd407e660355951a200051419b5a8b306c4ab"
     },
     "linux": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.0/code-reviewer_1.14.0_amd64.deb",
-      "sha256": "d2644f3a7811ea27d1a1320d4613e3910d455cb030ab4a40bc0b81798eb254a6"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.1/code-reviewer_1.14.1_amd64.deb",
+      "sha256": "bad043f1f6a084a90a08cc341c48ec7925823e3b1e1a7f4c1b4c6c796883d93d"
     },
     "win": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.0/CodeReviewer-1.14.0-win.zip",
-      "sha256": "ce7b7d6f594111b2ed9069c6809cc00042b65419faeae3cd1e3386ca55262f64"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.1/CodeReviewer-1.14.1-win.zip",
+      "sha256": "138c2e066a9003b4820b301c268d430c7d3d72aa6891af8cc77f572ef1804cee"
     }
   },
   "notesByVersion": {
@@ -23,6 +23,7 @@
     "1.11.0": "Release 1.11.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: add AI review language selection and update related preferences",
     "1.12.0": "Release 1.12.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement desktop menu integration and enhance keyboard shortcuts handling",
     "1.13.0": "Release 1.13.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement security PIN functionality with setup, validation, and session management\n- feat: enhance AI review language selection with new card UI and integrate language options in settings",
-    "1.14.0": "Release 1.14.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement download cancellation functionality and update UI state management\n- feat: downgrade app version to 1.9.0 and update theme handling in update windows\n- feat: add debug functionality to clear pending downloads and enhance UI for update management\n- feat: enhance update management with release notes version count and UI adjustments\n- feat: add update check outcome resolution and refactor update handling\n- feat: implement update management with pending downloads and UI integration"
+    "1.14.0": "Release 1.14.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement download cancellation functionality and update UI state management\n- feat: downgrade app version to 1.9.0 and update theme handling in update windows\n- feat: add debug functionality to clear pending downloads and enhance UI for update management\n- feat: enhance update management with release notes version count and UI adjustments\n- feat: add update check outcome resolution and refactor update handling\n- feat: implement update management with pending downloads and UI integration",
+    "1.14.1": "Release 1.14.1\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- fix: require GH_TOKEN for pushing legacy manifest updates and update clone command\n- chore: bump version to 1.14.1 and update patch number\n- fix: restore legacy manifest URL compatibility for auto-update migration\n- fix: correct releases repo name to Probox-CodeReviewer-releases\n- refactor: update repository references from CodeReviewer-releases to Probox-CodeReview-releases across documentation, scripts, and workflows\n- feat: implement download cancellation functionality and update UI state management\n- feat: downgrade app version to 1.9.0 and update theme handling in update windows\n- feat: add debug functionality to clear pending downloads and enhance UI for update management\n- feat: enhance update management with release notes version count and UI adjustments\n- feat: add update check outcome resolution and refactor update handling"
   }
 }
