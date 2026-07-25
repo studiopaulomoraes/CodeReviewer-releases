@@ -4,15 +4,15 @@
   "notes": "Release 1.14.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement download cancellation functionality and update UI state management\n- feat: downgrade app version to 1.9.0 and update theme handling in update windows\n- feat: add debug functionality to clear pending downloads and enhance UI for update management\n- feat: enhance update management with release notes version count and UI adjustments\n- feat: add update check outcome resolution and refactor update handling\n- feat: implement update management with pending downloads and UI integration",
   "assets": {
     "mac": {
-      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.14.0/CodeReviewer-1.14.0-mac.zip",
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.0/CodeReviewer-1.14.0-mac.zip",
       "sha256": "088306b93d7d1652605acc619a925f8cc0d66947a67239af36cd4f04150e9197"
     },
     "linux": {
-      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.14.0/code-reviewer_1.14.0_amd64.deb",
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.0/code-reviewer_1.14.0_amd64.deb",
       "sha256": "d2644f3a7811ea27d1a1320d4613e3910d455cb030ab4a40bc0b81798eb254a6"
     },
     "win": {
-      "url": "https://github.com/studiopaulomoraes/CodeReviewer-releases/releases/download/1.14.0/CodeReviewer-1.14.0-win.zip",
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.0/CodeReviewer-1.14.0-win.zip",
       "sha256": "ce7b7d6f594111b2ed9069c6809cc00042b65419faeae3cd1e3386ca55262f64"
     }
   },
