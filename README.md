@@ -8,14 +8,14 @@
 
 ## Download
 
-**Latest version: [1.14.1](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/tag/1.14.1)** · [All releases](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases)
+**Latest version: [1.14.2](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/tag/1.14.2)** · [All releases](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases)
 
 | Platform | Architecture | Format | Download |
 |----------|--------------|--------|----------|
-| **Windows** | x64 | ZIP | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.1/CodeReviewer-1.14.1-win.zip) |
-| **macOS** | Apple Silicon (M1/M2/M3/M4) | ZIP | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.1/CodeReviewer-1.14.1-mac.zip) |
-| **macOS** | Intel (x64) | ZIP | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.1/CodeReviewer-1.14.1-mac.zip) |
-| **Linux** | amd64 | DEB | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.1/code-reviewer_1.14.1_amd64.deb) |
+| **Windows** | x64 | ZIP | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.2/CodeReviewer-1.14.2-win.zip) |
+| **macOS** | Apple Silicon (M1/M2/M3/M4) | ZIP | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.2/CodeReviewer-1.14.2-mac.zip) |
+| **macOS** | Intel (x64) | ZIP | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.2/CodeReviewer-1.14.2-mac.zip) |
+| **Linux** | amd64 | DEB | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.2/code-reviewer_1.14.2_amd64.deb) |
 
 <details>
 <summary><strong>First launch notes</strong></summary>
