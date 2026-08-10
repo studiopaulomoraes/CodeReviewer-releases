@@ -1,19 +1,19 @@
 {
-  "version": "1.14.2",
-  "publishedAt": "2026-07-25T21:38:02Z",
-  "notes": "Release 1.14.2\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: enhance update handling with current version awareness and window placement management\n- fix: require GH_TOKEN for pushing legacy manifest updates and update clone command",
+  "version": "1.15.0",
+  "publishedAt": "2026-08-10T21:50:57Z",
+  "notes": "Release 1.15.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: update app version to 1.15.0 and adjust layout alignment in AboutScreen\n- chore: updating probox logo\n- feat: implement native window background application based on theme mode\n- feat: add DialogOriginBounds to various components for improved dialog positioning\n- feat: implement settings explorer sidebar with dynamic section navigation\n- feat: add configurable context line count for insights in comments",
   "assets": {
     "mac": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.2/CodeReviewer-1.14.2-mac.zip",
-      "sha256": "ea6d22206e39ddaeae8301071f85923df60cf28029d112837fe42810c9b2fda6"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.15.0/CodeReviewer-1.15.0-mac.zip",
+      "sha256": "29bebcd463b25166446b8028e96898d4f4d2ac847005a285190d412088f0a406"
     },
     "linux": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.2/code-reviewer_1.14.2_amd64.deb",
-      "sha256": "616bb9ae551abee2cb08dd73a708a701af6f762b7b167bcd3f4f97adca32ecd5"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.15.0/code-reviewer_1.15.0_amd64.deb",
+      "sha256": "fb0da162c694bf70c0006bdbe118f760359e2491c62504a2dd8643fe50ebc7c1"
     },
     "win": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.14.2/CodeReviewer-1.14.2-win.zip",
-      "sha256": "1ca8212ec249031b450e263289428e16e8a6db7c879eb15d8f3e4e7347949875"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.15.0/CodeReviewer-1.15.0-win.zip",
+      "sha256": "a2fcb974feaa7e2e1a29d23d795cde5b365160a1f5a9d97a6f720d6d2b156952"
     }
   },
   "notesByVersion": {
@@ -25,6 +25,7 @@
     "1.13.0": "Release 1.13.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement security PIN functionality with setup, validation, and session management\n- feat: enhance AI review language selection with new card UI and integrate language options in settings",
     "1.14.0": "Release 1.14.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement download cancellation functionality and update UI state management\n- feat: downgrade app version to 1.9.0 and update theme handling in update windows\n- feat: add debug functionality to clear pending downloads and enhance UI for update management\n- feat: enhance update management with release notes version count and UI adjustments\n- feat: add update check outcome resolution and refactor update handling\n- feat: implement update management with pending downloads and UI integration",
     "1.14.1": "Release 1.14.1\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- fix: require GH_TOKEN for pushing legacy manifest updates and update clone command\n- chore: bump version to 1.14.1 and update patch number\n- fix: restore legacy manifest URL compatibility for auto-update migration\n- fix: correct releases repo name to Probox-CodeReviewer-releases\n- refactor: update repository references from CodeReviewer-releases to Probox-CodeReview-releases across documentation, scripts, and workflows\n- feat: implement download cancellation functionality and update UI state management\n- feat: downgrade app version to 1.9.0 and update theme handling in update windows\n- feat: add debug functionality to clear pending downloads and enhance UI for update management\n- feat: enhance update management with release notes version count and UI adjustments\n- feat: add update check outcome resolution and refactor update handling",
-    "1.14.2": "Release 1.14.2\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: enhance update handling with current version awareness and window placement management\n- fix: require GH_TOKEN for pushing legacy manifest updates and update clone command"
+    "1.14.2": "Release 1.14.2\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: enhance update handling with current version awareness and window placement management\n- fix: require GH_TOKEN for pushing legacy manifest updates and update clone command",
+    "1.15.0": "Release 1.15.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: update app version to 1.15.0 and adjust layout alignment in AboutScreen\n- chore: updating probox logo\n- feat: implement native window background application based on theme mode\n- feat: add DialogOriginBounds to various components for improved dialog positioning\n- feat: implement settings explorer sidebar with dynamic section navigation\n- feat: add configurable context line count for insights in comments"
   }
 }
