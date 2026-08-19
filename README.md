@@ -38,7 +38,7 @@ Paste a Pull Request URL and start the review. Multiple tabs let you work on Bit
 
 ### AI review
 
-Configure rigor, technology stack, attached context, review language, and optional instructions before running the analysis.
+Choose the model (Gemini, OpenAI, Anthropic, or Grok), effort, technology stack, attached context, review language, and optional instructions before running the analysis.
 
 ![AI Review dialog over a side-by-side diff](docs/screenshots/02-ai-review.png)
 
@@ -56,7 +56,7 @@ AI findings appear inline in the diff and as draft comments. Review, edit, and p
 
 ### Settings
 
-Theme, language, sounds, PR update polling, inline comment limits, and VCS token management.
+Theme, UI language, AI review language, sounds, PR update polling, security PIN, API keys, and VCS token management.
 
 ![Settings screen with appearance, language, and PAT options](docs/screenshots/05-settings.png)
 
@@ -64,35 +64,36 @@ Theme, language, sounds, PR update polling, inline comment limits, and VCS token
 
 ## Features
 
-### 🤖 Intelligent AI Analysis
+### Intelligent AI Analysis
 
-- **Multiple AI providers**: Google Gemini and OpenAI (ChatGPT)
-- **Dynamic models**: choose from various models (e.g., `gemini-1.5-flash`, `gpt-4o-mini`, `gpt-4o`) based on your needs
-- **Adjustable criticality levels**:
-    - **HIGH** — strict (ideal for junior teams)
-    - **MEDIUM** — moderate (mid-level)
-    - **LOW** — basic (senior)
-    - **NONE** — default
+- **Four AI providers**: Google Gemini, OpenAI, Anthropic (Claude), and Grok (xAI)
+- **Live model catalog**: models are loaded from each provider API (defaults: `gemini-2.5-flash`, `gpt-4o-mini`, `claude-sonnet-4-20250514`, `grok-4.6`)
+- **Unified model picker**: one dropdown for the current model, provider, and effort; changing effort does not close the menu
+- **Manage models**: enable or disable models in the list. On first use, only models recommended for code review are on; newly discovered models stay off until you enable them
+- **Effort (reasoning / thinking)**: `None`, `Minimal`, `Low`, `Medium`, `High`, `Extra high`, `Max` — only the levels the selected model supports are shown
+- **Usage chip**: after an analysis, remaining quota (OpenAI, Anthropic, Grok) or tokens used (Gemini)
 - **Automatic detection** of bugs, vulnerabilities, and improvement suggestions
 - **AI-generated diff summary** for a quick overview
 - **Enriched context**: attach files (drag & drop or file picker) to enrich the analysis prompt
-- **Conversation history** (ChatSession) maintained for continuous context across analyses
+- **Follow-up context** kept across analyses in the same review session
+- **AI review language**: English or Português (Brasil), independent of the app UI language
 
-### 🔗 VCS Integration
+### VCS Integration
 
 | Provider | Support | Supported URLs |
 |----------|---------|----------------|
-| **Azure DevOps** | ✅ | `dev.azure.com/{org}/{proj}/_git/{repo}/pullrequest/{id}` |
-| **GitHub** | ✅ | `github.com/{owner}/{repo}/pull/{id}` |
-| **GitLab** | ✅ | `gitlab.*/.../merge_requests/{id}` |
-| **Bitbucket** | ✅ | `bitbucket.org/{workspace}/{repo}/pull-requests/{id}` |
+| **Azure DevOps** | Yes | `dev.azure.com/{org}/{proj}/_git/{repo}/pullrequest/{id}` |
+| **GitHub** | Yes | `github.com/{owner}/{repo}/pull/{id}` |
+| **GitLab** | Yes | `gitlab.com` and self-hosted `…/merge_requests/{id}` |
+| **Bitbucket** | Yes | `bitbucket.org/{workspace}/{repo}/pull-requests/{id}` |
 
 - **Paste the PR URL** and the app automatically loads the diff and metadata
 - **Multiple PATs** per provider — choose which account to use in each tab
+- **Test connection** when adding or editing a token
 - **Permission checks** (GitHub repo, GitLab role) before posting
 - **Authenticated images** on Azure DevOps via dedicated interceptor
 
-### 💬 Comments and Collaboration
+### Comments and Collaboration
 
 - **Direct publishing** of comments on Pull Requests (Azure DevOps, GitHub, GitLab, Bitbucket)
 - **Severities**: CRITICAL, HIGH, MEDIUM, LOW, UNKNOWN
@@ -102,7 +103,7 @@ Theme, language, sounds, PR update polling, inline comment limits, and VCS token
 - **Thread status** on Azure DevOps
 - **Review vote** on Azure DevOps: Approve, Reject, Wait
 
-### 📂 Diff Viewer
+### Diff Viewer
 
 - **Side-by-side diff** for clear comparison
 - **File list** with quick navigation
@@ -111,14 +112,14 @@ Theme, language, sounds, PR update polling, inline comment limits, and VCS token
 - **Markdown rendering** in comments and code blocks
 - **Configurable typography** for diff, comments, and UI
 
-### 🛠️ Customizable Technology Stack
+### Customizable Technology Stack
 
 - **TechStack**: Android, iOS, Flutter, KMP, React Native, Other
 - **TechCategory**: Mobile, Web, Backend, Desktop, DevOps/Cloud, Other
 - **Custom technologies**: add technologies by category for more accurate analyses
 - **Built-in technologies** for common scenarios
 
-### 📑 Productivity
+### Productivity
 
 - **Up to 5 simultaneous tabs** — review multiple PRs at the same time
 - **Keyboard shortcuts** throughout the application:
@@ -130,26 +131,32 @@ Theme, language, sounds, PR update polling, inline comment limits, and VCS token
     - `Cmd/Ctrl + S` — Save changes
     - `Cmd/Ctrl + F` — Search
     - `Cmd/Ctrl + Shift + /` — Shortcuts dialog
-- **Optional sound** when analysis completes
-- **Automatic updates** via manifest or GitHub Releases
+- **Optional sound** when analysis or downloads complete
+- **Automatic updates** via manifest or GitHub Releases (check and download from Settings)
 
-### 🎨 Interface and Accessibility
+### Interface and Accessibility
 
 - **Light and dark theme** (Light/Dark)
+- **UI language**: English or Português (Brasil)
 - **Configurable font sizes** for diff, comments, and UI
 - **Material Design 3** — modern and consistent interface
 - **Contextual tooltips**
 - **Drag & drop** files for additional context
 - **Responsive layout** with adaptable typography scale
 
-### ⚙️ Settings
+### Settings
 
-- **API keys**: Gemini and OpenAI (multiple keys supported)
-- **PATs**: Azure DevOps, GitHub, GitLab, Bitbucket
+- **API keys**: Gemini, OpenAI, Anthropic, and Grok (multiple keys; test connection before save)
+- **PATs**: Azure DevOps, GitHub, GitLab, Bitbucket (test connection before save)
+- **Security PIN**: 6-digit PIN to reveal stored secrets, with a configurable session timeout
 - **Technologies**: custom list by category
 - **Theme**: Light / Dark
+- **Languages**: app UI and AI review comments (independent)
 - **Fonts**: Diff, Comments, UI
 - **Completion sound**: enable/disable
+- **PR update polling**: how often to check the open pull request for new commits
+- **Remote thread density** and **AI insight context lines**
+- **Updates**: check whether a new desktop version is available
 
 ---
 
@@ -170,11 +177,11 @@ Theme, language, sounds, PR update polling, inline comment limits, and VCS token
 
 1. **Save time** — reduce review time by up to 80%
 2. **Multi-VCS** — one app for Azure DevOps, GitHub, GitLab, and Bitbucket
-3. **Multi-AI** — choose between Gemini and OpenAI as you prefer
+3. **Multi-AI** — Gemini, OpenAI, Anthropic, or Grok, with effort control per model
 4. **Custom context** — attach files and define technologies for more accurate analyses
 5. **Direct publishing** — publish comments on the PR without leaving the app
 6. **Cross-platform** — macOS, Windows, and Linux with the same experience
-7. **Automatic updates** — always stay on the latest version
+7. **Automatic updates** — stay on the latest published version for your platform
 
 ---
 
