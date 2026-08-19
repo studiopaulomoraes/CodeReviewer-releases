@@ -8,13 +8,13 @@
 
 ## Download
 
-**Latest version: [1.16.0](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/tag/1.16.0)** · [All releases](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases)
+**Latest version: [1.16.1](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/tag/1.16.1)** · [All releases](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases)
 
 | Platform | Architecture | Format | Download |
 |----------|--------------|--------|----------|
 | **Windows** | x64 | ZIP | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.15.0/CodeReviewer-1.15.0-win.zip) |
-| **macOS** | Apple Silicon (M1/M2/M3/M4) | ZIP | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.16.0/CodeReviewer-1.16.0-mac.zip) |
-| **macOS** | Intel (x64) | ZIP | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.16.0/CodeReviewer-1.16.0-mac.zip) |
+| **macOS** | Apple Silicon (M1/M2/M3/M4) | ZIP | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.16.1/CodeReviewer-1.16.1-mac.zip) |
+| **macOS** | Intel (x64) | ZIP | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.16.1/CodeReviewer-1.16.1-mac.zip) |
 | **Linux** | amd64 | DEB | [**Download**](https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.15.0/code-reviewer_1.15.0_amd64.deb) |
 
 <details>
