@@ -1,19 +1,19 @@
 {
-  "version": "1.18.0",
-  "publishedAt": "2026-08-21T23:14:37Z",
-  "notes": "Release 1.18.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement sticky overlay state management for diff panel\n- refactor: remove sticky headers dependency and update comments dialog layout\n- feat: add UI zoom factor settings",
+  "version": "1.18.1",
+  "publishedAt": "2026-08-22T00:14:07Z",
+  "notes": "Release 1.18.1\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- fix: sticky overlay visibility logic\n- feat: implement sticky overlay state management for diff panel\n- refactor: remove sticky headers dependency and update comments dialog layout",
   "assets": {
     "mac": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.18.0/CodeReviewer-1.18.0-mac.zip",
-      "sha256": "2a570b195e936f1ec36acbe3cb3e46afa3e10ec7e6186a7fcdb19c3cfb7f8e0c"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.18.1/CodeReviewer-1.18.1-mac.zip",
+      "sha256": "a9481e7a40a6bc86fbaf99133d498ac1c97b79bd65b6ceb93800d40f80629fb3"
     },
     "linux": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.18.0/code-reviewer_1.18.0_amd64.deb",
-      "sha256": "bce99ccadf55d0994f02eacd07cb858c7691274f13c5f3da943d8aa59cbc6e0d"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.18.1/code-reviewer_1.18.1_amd64.deb",
+      "sha256": "114ca4ce6ddedf8e32113751c102ac1af2534049357a7ab47ab2797aa4874a05"
     },
     "win": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.18.0/CodeReviewer-1.18.0-win.zip",
-      "sha256": "06965c7de9950e37ad41d4b4c8faa030f33d8fce0d7d01201deed35ffcb90239"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.18.1/CodeReviewer-1.18.1-win.zip",
+      "sha256": "98e93b57b6b79d42edc80b4c92c29492b062aa0acc25af9dc31c8d1add060887"
     }
   },
   "notesByVersion": {
@@ -31,6 +31,7 @@
     "1.16.1": "Release 1.16.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: add support for Azure DevOps and GitLab token validation with enhanced error handling\n- feat: enhance error handling for VCS requests with detailed messages\n- feat: add support for Grok AI provider and update related configurations\n- feat: introduce support for Anthropic AI provider and enhance effort level management\n- feat: enhance pull request status handling with draft and merged flags\n- feat: refine sectionDivider logic based on anchor presence in CommentCodeContextBlock\n- feat: add commentInsightMaxWidth parameter for dynamic comment width handling\n- feat: add CommentInsightWidthConstraint for dynamic comment width handling\n- feat: remove unused methods for file management in AiReviewPanelViewModel\n- feat: increase maximum comment description length to 10000 characters",
     "1.16.2": "Release 1.16.2\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: enhance release workflow by adding asset upload steps and refactoring release preparation\n- feat: implement usage quota fetching for AI providers and enhance preference notifications\n- feat: add cleanup script for GitHub Actions artifacts and update build configuration\n- feat: implement dialog and detached window support with platform-specific configurations\n- feat: enhance AI usage snapshot handling and improve language option card layout",
     "1.17.0": "Release 1.17.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: restructure diff summary handling with new content model and validation rules\n- feat: enhance release workflow by adding asset upload steps and refactoring release preparation",
-    "1.18.0": "Release 1.18.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement sticky overlay state management for diff panel\n- refactor: remove sticky headers dependency and update comments dialog layout\n- feat: add UI zoom factor settings"
+    "1.18.0": "Release 1.18.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement sticky overlay state management for diff panel\n- refactor: remove sticky headers dependency and update comments dialog layout\n- feat: add UI zoom factor settings",
+    "1.18.1": "Release 1.18.1\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- fix: sticky overlay visibility logic\n- feat: implement sticky overlay state management for diff panel\n- refactor: remove sticky headers dependency and update comments dialog layout"
   }
 }
