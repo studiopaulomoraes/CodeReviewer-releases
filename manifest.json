@@ -1,19 +1,19 @@
 {
-  "version": "1.18.2",
-  "publishedAt": "2026-08-22T12:38:06Z",
-  "notes": "Release 1.18.2\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- refactor: streamline viewport level handling and improve panel minimization logic\n- feat: update comments dialog layout and add viewport density handling",
+  "version": "1.19.0",
+  "publishedAt": "2026-08-25T22:56:11Z",
+  "notes": "Release 1.19.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- chore: update version to 1.19.0\n- feat: enhance DiffPanelStickyVisibleItem with size property and update related logic\n- feat: implement AI model fallback chain and validation preferences\n- feat: add DiffFileCopyButton component for copying file versions\n- feat: add AI review tone management with preferences and UI integration\n- feat: implement window size locking mechanism and update layout handling\n- refactor: streamline viewport level handling and improve panel minimization logic",
   "assets": {
     "mac": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.18.2/CodeReviewer-1.18.2-mac.zip",
-      "sha256": "1c63e1b7fb62441b833a8529f73524ed8a613c21c03a2276318b8664fb291b20"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.19.0/CodeReviewer-1.19.0-mac.zip",
+      "sha256": "acbfbeca2e948980eba07437d25e6c72f393b610b576fa63c35a3c27f073c541"
     },
     "linux": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.18.2/code-reviewer_1.18.2_amd64.deb",
-      "sha256": "8396c2840632675362d3409780512c24db406a49982f34b5d3d7b68d83fd0bf8"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.19.0/code-reviewer_1.19.0_amd64.deb",
+      "sha256": "9c2e31761f6d18105e307f243fec9820fc1dbbe35bb96d3aa5cdd5892c44e713"
     },
     "win": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.18.2/CodeReviewer-1.18.2-win.zip",
-      "sha256": "654143cbabc23d348e3ac8bd347dae349a4cb52573acd4e8b0faed2361fece50"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.19.0/CodeReviewer-1.19.0-win.zip",
+      "sha256": "69ba81b5ef7d99194a608313ef8b93f6e2ffa0182cb35cbef2295d85680a5e7b"
     }
   },
   "notesByVersion": {
@@ -33,6 +33,7 @@
     "1.17.0": "Release 1.17.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: restructure diff summary handling with new content model and validation rules\n- feat: enhance release workflow by adding asset upload steps and refactoring release preparation",
     "1.18.0": "Release 1.18.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement sticky overlay state management for diff panel\n- refactor: remove sticky headers dependency and update comments dialog layout\n- feat: add UI zoom factor settings",
     "1.18.1": "Release 1.18.1\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- fix: sticky overlay visibility logic\n- feat: implement sticky overlay state management for diff panel\n- refactor: remove sticky headers dependency and update comments dialog layout",
-    "1.18.2": "Release 1.18.2\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- refactor: streamline viewport level handling and improve panel minimization logic\n- feat: update comments dialog layout and add viewport density handling"
+    "1.18.2": "Release 1.18.2\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- refactor: streamline viewport level handling and improve panel minimization logic\n- feat: update comments dialog layout and add viewport density handling",
+    "1.19.0": "Release 1.19.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- chore: update version to 1.19.0\n- feat: enhance DiffPanelStickyVisibleItem with size property and update related logic\n- feat: implement AI model fallback chain and validation preferences\n- feat: add DiffFileCopyButton component for copying file versions\n- feat: add AI review tone management with preferences and UI integration\n- feat: implement window size locking mechanism and update layout handling\n- refactor: streamline viewport level handling and improve panel minimization logic"
   }
 }
