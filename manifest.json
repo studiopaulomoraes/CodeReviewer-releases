@@ -1,19 +1,19 @@
 {
-  "version": "1.19.0",
-  "publishedAt": "2026-08-25T22:56:11Z",
-  "notes": "Release 1.19.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- chore: update version to 1.19.0\n- feat: enhance DiffPanelStickyVisibleItem with size property and update related logic\n- feat: implement AI model fallback chain and validation preferences\n- feat: add DiffFileCopyButton component for copying file versions\n- feat: add AI review tone management with preferences and UI integration\n- feat: implement window size locking mechanism and update layout handling\n- refactor: streamline viewport level handling and improve panel minimization logic",
+  "version": "1.19.1",
+  "publishedAt": "2026-08-27T00:26:30Z",
+  "notes": "Release 1.19.1\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: add saveAll method to AiApiKeyRepository and VcsPatRepository for batch saving\n- feat: implement reorderable functionality in AiModelFallbackChainDialog\n- feat: enhance fallback chain management with selection badge and reordering logic",
   "assets": {
     "mac": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.19.0/CodeReviewer-1.19.0-mac.zip",
-      "sha256": "acbfbeca2e948980eba07437d25e6c72f393b610b576fa63c35a3c27f073c541"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.19.1/CodeReviewer-1.19.1-mac.zip",
+      "sha256": "41a673d27567efe0600a0ae71bb1516de7d994502e6345602f73f1bd9788dae2"
     },
     "linux": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.19.0/code-reviewer_1.19.0_amd64.deb",
-      "sha256": "9c2e31761f6d18105e307f243fec9820fc1dbbe35bb96d3aa5cdd5892c44e713"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.19.1/code-reviewer_1.19.1_amd64.deb",
+      "sha256": "8ff0e6da568c8107f434d3e1ba3b431dc2e761973d6ae59b3f8a8951b98d33ef"
     },
     "win": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.19.0/CodeReviewer-1.19.0-win.zip",
-      "sha256": "69ba81b5ef7d99194a608313ef8b93f6e2ffa0182cb35cbef2295d85680a5e7b"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.19.1/CodeReviewer-1.19.1-win.zip",
+      "sha256": "10ceeb5e0be9e3abec4555914df47b39f1f44f7a68c969efd0e92e9dfc9bd83c"
     }
   },
   "notesByVersion": {
@@ -34,6 +34,7 @@
     "1.18.0": "Release 1.18.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement sticky overlay state management for diff panel\n- refactor: remove sticky headers dependency and update comments dialog layout\n- feat: add UI zoom factor settings",
     "1.18.1": "Release 1.18.1\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- fix: sticky overlay visibility logic\n- feat: implement sticky overlay state management for diff panel\n- refactor: remove sticky headers dependency and update comments dialog layout",
     "1.18.2": "Release 1.18.2\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- refactor: streamline viewport level handling and improve panel minimization logic\n- feat: update comments dialog layout and add viewport density handling",
-    "1.19.0": "Release 1.19.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- chore: update version to 1.19.0\n- feat: enhance DiffPanelStickyVisibleItem with size property and update related logic\n- feat: implement AI model fallback chain and validation preferences\n- feat: add DiffFileCopyButton component for copying file versions\n- feat: add AI review tone management with preferences and UI integration\n- feat: implement window size locking mechanism and update layout handling\n- refactor: streamline viewport level handling and improve panel minimization logic"
+    "1.19.0": "Release 1.19.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- chore: update version to 1.19.0\n- feat: enhance DiffPanelStickyVisibleItem with size property and update related logic\n- feat: implement AI model fallback chain and validation preferences\n- feat: add DiffFileCopyButton component for copying file versions\n- feat: add AI review tone management with preferences and UI integration\n- feat: implement window size locking mechanism and update layout handling\n- refactor: streamline viewport level handling and improve panel minimization logic",
+    "1.19.1": "Release 1.19.1\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: add saveAll method to AiApiKeyRepository and VcsPatRepository for batch saving\n- feat: implement reorderable functionality in AiModelFallbackChainDialog\n- feat: enhance fallback chain management with selection badge and reordering logic"
   }
 }
