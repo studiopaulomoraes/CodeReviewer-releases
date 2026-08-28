@@ -1,19 +1,19 @@
 {
-  "version": "1.19.2",
-  "publishedAt": "2026-08-27T02:35:53Z",
-  "notes": "Release 1.19.2\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: enhance update window management with dynamic sizing and position tracking\n- feat: add saveAll method to AiApiKeyRepository and VcsPatRepository for batch saving",
+  "version": "1.20.0",
+  "publishedAt": "2026-08-28T00:58:23Z",
+  "notes": "Release 1.20.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement GitHub discussion resolution feature with GraphQL integration\n- feat: enhance thread discussion analysis with launch snapshot and resilient mode handling\n- feat: implement thread discussion analysis feature with related data models and repository methods\n- fix: enhance GitHub thread line number handling with new display anchor logic\n- feat: introduce max frame height calculation and update window height clamping logic",
   "assets": {
     "mac": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.19.2/CodeReviewer-1.19.2-mac.zip",
-      "sha256": "da4f136749ed18343e85b836e8584cc1dae6023522411900132841ca1e746833"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.20.0/CodeReviewer-1.20.0-mac.zip",
+      "sha256": "919ab13a72d7f34c48f9f59fe675ed1392fe15eed1be2e4ccbe20ab99977a69e"
     },
     "linux": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.19.2/code-reviewer_1.19.2_amd64.deb",
-      "sha256": "0cf3e35e93b3933fa5c1f371b402735709d9efc7b27b5d159f02e9acb7ed8548"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.20.0/code-reviewer_1.20.0_amd64.deb",
+      "sha256": "41ce3cda6d535c38d4a5c03ace75fc617876af94257e5a49ec11e8ef31c51da3"
     },
     "win": {
-      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.19.2/CodeReviewer-1.19.2-win.zip",
-      "sha256": "f3a629e90936710209dd076e80a915cc432d44acd556165ba30dea924dcff8ac"
+      "url": "https://github.com/studiopaulomoraes/Probox-CodeReviewer-releases/releases/download/1.20.0/CodeReviewer-1.20.0-win.zip",
+      "sha256": "a92378e19f078ca689d7f90058b81ff571e81f4a802e912da1d54bfd85ac6c22"
     }
   },
   "notesByVersion": {
@@ -36,6 +36,7 @@
     "1.18.2": "Release 1.18.2\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- refactor: streamline viewport level handling and improve panel minimization logic\n- feat: update comments dialog layout and add viewport density handling",
     "1.19.0": "Release 1.19.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- chore: update version to 1.19.0\n- feat: enhance DiffPanelStickyVisibleItem with size property and update related logic\n- feat: implement AI model fallback chain and validation preferences\n- feat: add DiffFileCopyButton component for copying file versions\n- feat: add AI review tone management with preferences and UI integration\n- feat: implement window size locking mechanism and update layout handling\n- refactor: streamline viewport level handling and improve panel minimization logic",
     "1.19.1": "Release 1.19.1\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: add saveAll method to AiApiKeyRepository and VcsPatRepository for batch saving\n- feat: implement reorderable functionality in AiModelFallbackChainDialog\n- feat: enhance fallback chain management with selection badge and reordering logic",
-    "1.19.2": "Release 1.19.2\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: enhance update window management with dynamic sizing and position tracking\n- feat: add saveAll method to AiApiKeyRepository and VcsPatRepository for batch saving"
+    "1.19.2": "Release 1.19.2\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: enhance update window management with dynamic sizing and position tracking\n- feat: add saveAll method to AiApiKeyRepository and VcsPatRepository for batch saving",
+    "1.20.0": "Release 1.20.0\n\nmacOS: on first launch, right-click the app and choose Open.\nWindows: on first launch, SmartScreen may warn — choose More info, then Run anyway.\nLinux: installing the package may prompt for your password in the package manager.\n\n\n## Changes\n\n- feat: implement GitHub discussion resolution feature with GraphQL integration\n- feat: enhance thread discussion analysis with launch snapshot and resilient mode handling\n- feat: implement thread discussion analysis feature with related data models and repository methods\n- fix: enhance GitHub thread line number handling with new display anchor logic\n- feat: introduce max frame height calculation and update window height clamping logic"
   }
 }
