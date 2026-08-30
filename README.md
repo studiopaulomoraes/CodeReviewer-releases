@@ -60,6 +60,12 @@ Theme, UI language, AI review language, sounds, PR update polling, security PIN,
 
 ![Settings screen with appearance, language, and PAT options](docs/screenshots/05-settings.png)
 
+### About
+
+App version, credits, and links to Probox Studio.
+
+![About screen with version and product information](docs/screenshots/06-about.png)
+
 ---
 
 ## Features
@@ -170,6 +176,23 @@ Theme, UI language, AI review language, sounds, PR update polling, security PIN,
 
 - **Built-in automatic updates** (macOS, Windows, Linux)
 - **Error monitoring** with Sentry
+
+---
+
+## Privacy & credentials
+
+All **AI API keys** and **VCS tokens (PATs)** are stored **only on your device**. Code Reviewer **does not send credentials to Probox Studio servers** and has **no cloud backend** to store them — nothing is synced to our infrastructure.
+
+| What | Where it lives | When it is used |
+|------|----------------|-----------------|
+| AI API keys | Local app storage | Direct calls from your machine to the AI provider you configured (Gemini, OpenAI, Anthropic, Grok) |
+| VCS PATs | Local app storage | Direct calls from your machine to the VCS API for the PR URL (Azure DevOps, GitHub, GitLab, Bitbucket) |
+
+On each platform the app uses the OS-native preferences store: **Java Preferences** on Desktop, private **SharedPreferences** on Android, and **UserDefaults** on iOS.
+
+**In practice:** your keys never pass through Probox intermediaries. They leave your device only to talk to the provider you chose. You can delete them anytime in **Settings**. An optional **security PIN** can hide stored secrets in the UI until you unlock the session.
+
+You do not need to worry about Probox accessing your keys — **we do not collect or store your credentials**.
 
 ---
 
